@@ -20,6 +20,7 @@ public class AmstrongNumber {
 			// 153%10 = 3
 			// cube = 0+ 3*3*3
 			cube += Math.pow(digit, length);
+			// I'm practicing to push the programs to Git
 			temp = temp / 10;
 			System.out.println(cube);
 		}
